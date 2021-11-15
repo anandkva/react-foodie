@@ -13,10 +13,10 @@ export default class Fooder extends Component{
             <h5>Dindugal Thalapakatti Biriyani</h5>
             <h6>Chennai 10AM - 10PM</h6>
             <Link className="btn btn-danger" to="/"><i className="fa fa-home"></i> Home</Link>
-            <button className="btn btn-outline-danger"><i className="fa fa-comments"></i> Add Review</button>
-            <button className="btn btn-outline-danger"><i className="fa fa-map-marker"></i> Direction</button>
-            <button className="btn btn-outline-danger"><i className="fa fa-bookmark"></i> Add Bookmark</button>
-            <button className="btn btn-outline-danger"><i className="fa fa-share"></i> share</button>
+            &nbsp;<button className="btn btn-outline-danger"><i className="fa fa-comments"></i> Add Review</button>
+            &nbsp;<button className="btn btn-outline-danger"><i className="fa fa-map-marker"></i> Direction</button>
+            &nbsp;<button className="btn btn-outline-danger"><i className="fa fa-bookmark"></i> Add Bookmark</button>
+            &nbsp;<button className="btn btn-outline-danger"><i className="fa fa-share"></i> share</button>
         </div>
         <div className="contentcase">
             <ul className="list-group">

@@ -1,5 +1,5 @@
 .banner {
-    background: url("./asset/images/banner.jpg");
+    background-image: url("./asset/images/banner.jpg");
     background-color: #cccccc;
     height: 350px;
     background-position: center;
@@ -30,7 +30,6 @@
 .title {
     font-size: 70px;
     font-weight: bolder;
-    background-color: rgba(0, 0, 0, 0.336);
     text-transform: uppercase;
 }
 .foodview {
@@ -41,12 +40,6 @@
 }
 .foodlist {
     padding-bottom: 18px;
-}
-.cardhover:hover {
-    border: 1px solid black;
-    box-shadow: 8px 8px 8px black;
-    transform: scale(1.12);
-    transition: .5s;
 }
 .rating {
     width: 50px;
@@ -76,39 +69,73 @@
     padding: 20px;
     width: 100%;
 }
-.contentcase {
-    margin: auto;
-    width: 80%;
-}
-
 .list-image {
     width: 120px;
+}
+.select-box {
+    transform: translate(110%, 0%);
+    width: 85px;
+}
+.input-box {
+    transform: translate(-15%, 0%);
+    width: 450px;
 }
 .hero-image {
     width: 600px;
 }
-.card-link, .card-link:hover{
+button > .btn-outline-danger {
+    background-color: red;
+}
+.btn-box {
+    transform: translate(-80%, 0%);
+}
+.card-link, .card-link:hover {
     color: black;
     text-decoration: none;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     .search-box {
-        font-size: 10px;
+        font-size: 6px;
         width: 300px;
-        transform: translate(-50%, 120%);
+        transform: translate(-30%, 150%);
     }
+    .select-box {
+        transform: translate(-90%, 0%);
+        width: 75px;
+    }
+    .input-box {
+        transform: translate(-75%, 0%);
+        width: 100px;
+    }
+
 }
 @media screen and (max-width: 650px) {
     .search-box {
         font-size: 10px;
         width: 300px;
-        transform: translate(-50%, 170%);
+        transform: translate(-30%, 170%);
     }
 }
 @media screen and (max-width: 400px) {
     .search-box {
+       display:none;
+    }
+    
+}
+@media screen and (max-width: 215px){
+    .title{
+        font-size: 30px;
+    }
+    .description{
         font-size: 10px;
-        width: 230px;
-        transform: translate(-50%, 170%);
+    }
+    .dish-name{
+            font-size: 9px;
+    }
+    .dish-details{
+        font-size: 7px;
+    }
+    .low-rating,.rating, .fa-star{
+       display: none;
     }
 }

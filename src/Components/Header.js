@@ -13,7 +13,7 @@ export default class Header extends React.Component{
             <div className="search-box">
                 <div className="row">
                     <div className="col">
-                        <div className="form-group">
+                        <div className="form-group select-box">
                             <select className="form-control" id="cities">
                                 <option value="Andhra Pradesh">Andhra Pradesh</option>
                                 <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
@@ -55,9 +55,13 @@ export default class Header extends React.Component{
                         </div>
                     </div>
                     <div className="col">
-                        <input type="text" className="form-control" placeholder="Search for restaurant or food" id="food" />
+                        <div className="input-box">
+                            <input type="text" className="form-control" placeholder="Search for restaurant or food"
+                                id="food" />
+                        </div>
                     </div>
-                    <button className="btn btn-outline-primary" type="button"><i className="fa fa-search" aria-hidden="true" ></i> Search</button>
+                    <button className="btn btn-outline-primary btn-box" type="button"><i className="fa fa-search"
+                            aria-hidden="true"></i> Search</button>
                 </div>
             </div>
         </div>
