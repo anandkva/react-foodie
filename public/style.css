@@ -83,9 +83,6 @@
 .hero-image {
     width: 600px;
 }
-button > .btn-outline-danger {
-    background-color: red;
-}
 .btn-box {
     transform: translate(-80%, 0%);
 }
@@ -107,7 +104,6 @@ button > .btn-outline-danger {
         transform: translate(-75%, 0%);
         width: 100px;
     }
-
 }
 @media screen and (max-width: 650px) {
     .search-box {
@@ -118,24 +114,23 @@ button > .btn-outline-danger {
 }
 @media screen and (max-width: 400px) {
     .search-box {
-       display:none;
+        display: none;
     }
-    
 }
-@media screen and (max-width: 215px){
-    .title{
+@media screen and (max-width: 215px) {
+    .title {
         font-size: 30px;
     }
-    .description{
+    .description {
         font-size: 10px;
     }
-    .dish-name{
-            font-size: 9px;
+    .dish-name {
+        font-size: 9px;
     }
-    .dish-details{
+    .dish-details {
         font-size: 7px;
     }
-    .low-rating,.rating, .fa-star{
-       display: none;
+    .low-rating, .rating, .fa-star {
+        display: none;
     }
 }
